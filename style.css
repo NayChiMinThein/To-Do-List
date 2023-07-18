@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.mainBg-color{
+    background: linear-gradient(269deg, #4d0d58, #d4578f, #bc159b);
+    height: 100vh;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+}
+button i{
+    color: #bc159b;
+}
+button i:hover{
+    color: #810e6a;
+}
+.modal{
+    margin-top: 6%;
+}
+h1{
+    color: #333;
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.task-createBg{
+    background-color: #f0f0f0;
+}
+div input{
+    outline: none;
+    background-color: #f0f0f0;
+}
+.btn-color{
+    background-color: #d4578f;
+}
+.btn-color:hover{
+    background-color: #a5426e;
+}
+ul li{
+    font-size: 16px;
+    list-style: none;
+    padding-left: 12px;
+    margin-bottom: 22px;
+    position: relative;
+    /* border: 1px solid black; */
+}
+ul li input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    bottom: 3px;
+    cursor: pointer;
+}
+ul li span{
+    font-size: 30px;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    cursor: pointer;
+    color: #d60000;
+}
